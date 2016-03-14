@@ -1,13 +1,11 @@
 package com.examples.one.petstore;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Test;
 
-import junit.framework.TestCase;
-
-public class PuppyTest extends TestCase 
+public class PuppyTest
 {
 	Puppy p_test = new Puppy(0,"Fido","Labrador");
 	
